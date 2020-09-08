@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
+ <welcome-file-list>
+   <welcome-file>home.html</welcome-file>
+ </welcome-file-list>
+ 
+ <!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>first</servlet-name>
+  <servlet-class>com.server.Myservlet1</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/web1</url-pattern>
+</servlet-mapping>
+
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>second</servlet-name>
+  <servlet-class>com.server.Myservlet2</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/web2</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>third</servlet-name>
+  <servlet-class>com.server.Myservlet3</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>third</servlet-name>
+    <url-pattern>/web3</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>fourth</servlet-name>
+  <servlet-class>com.server.FormRegestration</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>fourth</servlet-name>
+    <url-pattern>/web4</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>five</servlet-name>
+  <servlet-class>com.server.Success</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>five</servlet-name>
+    <url-pattern>/success</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>fifth</servlet-name>
+  <servlet-class>com.server.Myservlet4</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>fifth</servlet-name>
+    <url-pattern>/web5</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>six</servlet-name>
+  <servlet-class>com.server.Myservlet5</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>six</servlet-name>
+    <url-pattern>/web6</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>sixth</servlet-name>
+  <servlet-class>com.server.Myservlet6</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>sixth</servlet-name>
+    <url-pattern>/web7</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>seven</servlet-name>
+  <servlet-class>com.server.Myservlet7</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>seven</servlet-name>
+    <url-pattern>/web8</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet Deceleration -->
+ <servlet> 
+  <servlet-name>eight</servlet-name>
+  <servlet-class>com.signup.Signup</servlet-class>
+ </servlet>
+ 
+ <!--Servlet Mapping -->
+ 
+<servlet-mapping>
+    <servlet-name>eight</servlet-name>
+    <url-pattern>/signup</url-pattern>
+</servlet-mapping>
+</web-app>
